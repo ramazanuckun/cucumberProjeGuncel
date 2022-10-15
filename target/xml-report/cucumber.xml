@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="66.254">
+    <testcase classname="US011 Class Work" name="TC01_kullanici_sutun_basligi_ile_liste_alabilmeli" time="8.518">
+        <system-out>
+            <![CDATA[Given kullanici "guruUrl" anasayfasinda.....................................passed
+And "% Change" sutunundaki tum degerleri yazdirir...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US011 Class Work" name="TC01_kullanici_sutun_basligi_ile_liste_alabilmeli" time="22.466">
+        <system-out>
+            <![CDATA[Given kullanici "guruUrl" anasayfasinda.....................................passed
+And "<Basliklar>" sutunundaki tum degerleri yazdirir........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US011 Class Work" name="TC01_kullanici_sutun_basligi_ile_liste_alabilmeli_2" time="22.214">
+        <system-out>
+            <![CDATA[Given kullanici "guruUrl" anasayfasinda.....................................passed
+And "<Basliklar>" sutunundaki tum degerleri yazdirir........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US011 Class Work" name="TC01_kullanici_sutun_basligi_ile_liste_alabilmeli_3" time="6.401">
+        <system-out>
+            <![CDATA[Given kullanici "guruUrl" anasayfasinda.....................................passed
+And "<Basliklar>" sutunundaki tum degerleri yazdirir........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US011 Class Work" name="TC01_kullanici_sutun_basligi_ile_liste_alabilmeli_4" time="6.298">
+        <system-out>
+            <![CDATA[Given kullanici "guruUrl" anasayfasinda.....................................passed
+And "<Basliklar>" sutunundaki tum degerleri yazdirir........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

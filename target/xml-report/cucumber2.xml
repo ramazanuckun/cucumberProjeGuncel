@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.789">
+    <testcase classname="US014 Class Work" name="Kullanici ve Url Testi" time="16.336">
+        <failure message="unexpected alert open: {Alert text : validation failed}&#10;  (Session info: chrome=106.0.5249.119): validation failed&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'DESKTOP-EE8B3FG', ip: '192.168.1.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [43eed2c87f07e5f4daaa3025517cf909, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KULLAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63768/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 43eed2c87f07e5f4daaa3025517cf909" type="org.openqa.selenium.UnhandledAlertException">
+            <![CDATA[Given kullanici "webUrl" anasayfasinda......................................passed
+Then kullanici Login Portala kadar asagi iner...............................passed
+And kullanici Login Portala tiklar..........................................passed
+And kullanici diger windowa gecer...........................................passed
+And kullanici "username" kutusuna bilgileri girer...........................passed
+And kullanici "password" bolumune bilgileri girer...........................passed
+And kullanici login butonuna basar..........................................passed
+And kullanici Popup'ta cikan yazinin validation failed oldugunu test eder...passed
+And kullanici Ok diyerek Popup'i kapatir....................................passed
+And kullanici ilk sayfaya geri doner........................................passed
+And kullanici ilk sayfaya donuldugunu test eder.............................passed
+
+StackTrace:
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : validation failed}
+  (Session info: chrome=106.0.5249.119): validation failed
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-EE8B3FG', ip: '192.168.1.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43eed2c87f07e5f4daaa3025517cf909, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KULLAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63768/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43eed2c87f07e5f4daaa3025517cf909
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:348)
+	at stepDefinitions.Hooks.tearDown(Hooks.java:10)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
